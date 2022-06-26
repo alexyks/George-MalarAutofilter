@@ -347,7 +347,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_caption='' if f_caption is None else f_caption)
                 
                 buttons = [[
-                  InlineKeyboardButton('🔰 Main Group 🔰', url='https://t.me/CINEMAREQGROUP')
+                  InlineKeyboardButton('🔰 Main Group 🔰', url='https://t.me/CINEMA_COMPANY_GROUP')
                   ]]
             except Exception as e:
                 logger.exception(e)
@@ -420,7 +420,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_size='' if size is None else size,
                                                        file_caption='' if f_caption is None else f_caption)
                 buttons = [[
-                  InlineKeyboardButton('🔰 Main Group 🔰', url='https://t.me/CINEMAREQGROUP')
+                  InlineKeyboardButton('🔰 Main Group 🔰', url='https://t.me/CINEMA_Company_group')
                   ]]
             except Exception as e:
                 logger.exception(e)
@@ -440,8 +440,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('✆ 𝙶𝚁𝙾𝚄𝙿 ✆', url=f'https://t.me/CINEMAREQGROUP'),
-            InlineKeyboardButton('〄 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 〄', url=f'https://t.me/beta_bot_updates')
+            InlineKeyboardButton('✆ ɢʀᴏᴜᴩ ', url=f'https://t.me/CINEMA_COMPANY_GROUP'),
+            InlineKeyboardButton('〄 ᴍᴏᴠɪᴇꜱ 〄', url=f'https://t.me/CCG_OTT')
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
@@ -707,21 +707,21 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.insert(0,
             [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/beta_bot_updates"),
-             InlineKeyboardButton(text="💢 Main Group 💢",url="https://t.me/CINEMAREQGROUP")]
+             InlineKeyboardButton(text="💢 Main Group 💢",url="https://t.me/CINEMA_COMPANY_GROUP")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/+AvSoIDTR1FY2Y2Y9")]
+            [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https:/CCG_OTT")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/beta_bot_updates"),
-             InlineKeyboardButton(text="⭕️ MAIN Group ⭕️",url="https://t.me/CINEMAREQGROUP")]
+            [InlineKeyboardButton(text="⚜️ Main Channel ⚜️",url="https://t.me/CCG_OTT"),
+             InlineKeyboardButton(text="⭕️ MAIN Group ⭕️",url="https://t.me/CINEMA_COMPANY_GROUP")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/+AvSoIDTR1FY2Y2Y9")]
+            [InlineKeyboardButton(text="🔶 Files Channel 🔶",url="https://t.me/CCG_OTT")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
