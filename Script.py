@@ -43,14 +43,14 @@ class script(object):
 
 ➪ It is because of Copyright Issue is Very Low Compairing to Other Channels 😀"""
     START_TXT = """Hᴇʏ {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,\n 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..."""
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,\n "ɪ ᴄᴀɴ ᴩʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ "
     SOURCE_TXT = """<b>NOTE:</b>
 - This is a Eva Mari clone Project
-- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 :<a href=https://github.com/Jeolpaul/George-MalarAutofilter>George-MalarAutofilter</a>
+- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 : ᴀᴅᴅɪɴɢ ꜱᴏᴏɴ
 <b>DEV:</b>
-- 𝙳𝚎𝚟 <a href=https://t.me/JP_Jeol_org>ᴊᴇᴏʟ</a>
+- 𝙳𝚎𝚟 <a href=https://t.me/ualexy>ᴊᴇᴏʟ</a>
 
-<b>💘 Team ➜ <a href=https://t.me/beta_bot_updates>💫 𝙱𝙴𝚃𝙰 𝙱𝙾𝚃𝚉 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
+<b>💘 Team ➜ <a href=https://t.me/Ccg_ott>💫 ᴊᴏɪɴ ɴᴏᴡ 💫</a>\n✯ ━━━━━ ✧ ━━━━━ ✯</b>\n"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
