@@ -77,7 +77,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Beta_Bot_Updates)</code>
+<code>[Button Text](buttonurl:https://t.me/ccg_ott)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -134,12 +134,9 @@ This module only works for my admins
     ABOUT_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-<b>✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/ualexy>ᴊᴇᴏʟ</a></b>
-<b>✯ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 : <a href=https://t.me/ccg_ott>ʙᴇᴛᴀ ᴜᴘᴅᴀᴛᴇs</a></b>
-<b>✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
-<b>✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
-<b>✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
-<b>✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : ʜᴇʀᴏᴋᴜ</b>
+<b>✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/ualexy>alexy</a></b>
+<b>✯ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 : <a href=https://t.me/ccg_ott>CCG</a></b>
+
 <b>✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 : 𝚅1.0.43 [𝙼𝙰𝙹𝙾𝚁]</b>"""
 
     STATUS_TXT = """᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
@@ -151,8 +148,11 @@ This module only works for my admins
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
+
+Captain America Bot by Ccg
+@ccg_powerbot
 """
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#NewUser for @ccg_powerbot
 ID - <code>{}</code>
 Name - {}
 """
