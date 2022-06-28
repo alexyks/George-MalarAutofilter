@@ -8,5 +8,5 @@ else
 fi
 cd /George-Malar-Autofilter
 pip3 install -U -r requirements.txt
-echo "Starting BETA Botz💫...."
+echo "Starting CCG BOT ...."
 python3 botz.py
